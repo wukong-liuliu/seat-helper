@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    text-align: center;
+    margin: 50px 0;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.admin-panel {
+    display: none;
+    margin-top: 30px;
+}
+
+.file-list {
+    margin: 20px 0;
+}
+
+.login-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 100;
+}
+
+/* 二维码样式 */
+.qr-result {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(--50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.qr-code {
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
